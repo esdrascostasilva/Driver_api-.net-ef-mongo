@@ -31,3 +31,17 @@
 /Users/esdrascosta/Projects/DriverProject/Driver.API/obj/Debug/net7.0/Driver.API.pdb
 /Users/esdrascosta/Projects/DriverProject/Driver.API/obj/Debug/net7.0/Driver.API.genruntimeconfig.cache
 /Users/esdrascosta/Projects/DriverProject/Driver.API/obj/Debug/net7.0/ref/Driver.API.dll
+/Users/esdrascosta/Projects/DriverProject/Driver.API/obj/Debug/net7.0/Driver.API.sourcelink.json
+/Users/esdrascosta/Projects/DriverProject/Driver.API/bin/Debug/net7.0/AWSSDK.Core.dll
+/Users/esdrascosta/Projects/DriverProject/Driver.API/bin/Debug/net7.0/AWSSDK.SecurityToken.dll
+/Users/esdrascosta/Projects/DriverProject/Driver.API/bin/Debug/net7.0/DnsClient.dll
+/Users/esdrascosta/Projects/DriverProject/Driver.API/bin/Debug/net7.0/MongoDB.Bson.dll
+/Users/esdrascosta/Projects/DriverProject/Driver.API/bin/Debug/net7.0/MongoDB.Driver.dll
+/Users/esdrascosta/Projects/DriverProject/Driver.API/bin/Debug/net7.0/MongoDB.Driver.Core.dll
+/Users/esdrascosta/Projects/DriverProject/Driver.API/bin/Debug/net7.0/MongoDB.Libmongocrypt.dll
+/Users/esdrascosta/Projects/DriverProject/Driver.API/bin/Debug/net7.0/SharpCompress.dll
+/Users/esdrascosta/Projects/DriverProject/Driver.API/bin/Debug/net7.0/Snappier.dll
+/Users/esdrascosta/Projects/DriverProject/Driver.API/bin/Debug/net7.0/ZstdSharp.dll
+/Users/esdrascosta/Projects/DriverProject/Driver.API/bin/Debug/net7.0/runtimes/linux/native/libmongocrypt.so
+/Users/esdrascosta/Projects/DriverProject/Driver.API/bin/Debug/net7.0/runtimes/osx/native/libmongocrypt.dylib
+/Users/esdrascosta/Projects/DriverProject/Driver.API/bin/Debug/net7.0/runtimes/win/native/mongocrypt.dll
