@@ -8,10 +8,19 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.Configure<DriverConfigurationDb>(builder.Configuration.GetSection("MongoDbConfig"));
 builder.Services.AddSingleton<DriverService>();
 
+builder.Services.AddCors(options =>
+    options.AddPolicy("AngularClient", policy =>
+    {
+        policy.WithOrigins("http://localhost:4200")
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+    }));
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 
 var app = builder.Build();
 
@@ -27,5 +36,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseCors("AngularClient");
 
 app.Run();
